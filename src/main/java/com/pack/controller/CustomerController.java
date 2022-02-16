@@ -23,11 +23,14 @@ public class CustomerController {
 	
 	@PostMapping("/save")
 	public Customer saveCustRecord(@RequestBody Customer cust) {
+// Hi I am doing something on this line
 		return service.saveCustRecord(cust);
+// final code is here
 	}
 	@GetMapping("/show")
 	public String showMsg() {
 		return "Welcome to SpringBoot Application and Thanks for choosing Maven Command!!!!!!";
+// written some bussiness  logic 
 	}
 	
 	@GetMapping("/get/{cid}")
