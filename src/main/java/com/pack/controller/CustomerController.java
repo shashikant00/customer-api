@@ -26,6 +26,8 @@ public class CustomerController {
 // Hi I am doing something on this line
 		return service.saveCustRecord(cust);
 // final code is here
+// somethis missed
+// finnally addedd
 	}
 	@GetMapping("/show")
 	public String showMsg() {
